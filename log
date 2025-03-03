@@ -1,0 +1,18 @@
+ESTIMATE of time to complete assignment: 19 hours
+
+      Time     Time
+Date  Started  Spent Work completed
+----  -------  ----  --------------
+02/25  5pm  5 hours  Read through the spec carefully and tried to understand all the requirements. Watched the walkthrough and took notes on key points to keep in mind for implementation. Spent time planning how to approach the problem and identifying potential edge cases.  
+
+02/26  7pm  4 hours  Started writing the initial implementation for the track ADT. Wrote the basic structure and began implementing core functions like creating, destroying, and adding points to the track. Faced some errors and spent time debugging. Took short breaks in between to review related course materials.  
+
+02/27  2pm  3 hours  Focused on implementing `track_heatmap` and making sure the program correctly converted GPS points into grid cells. Encountered some boundary-related issues and had to rethink how to properly handle longitude wrapping and half-open intervals. Made multiple test runs to validate correctness.   
+
+02/28  3pm  7 hours  Debugging and refining the implementation. Ran test cases and identified mismatches in output for specific boundary cases. Used Valgrind to check for memory leaks and fixed any remaining issues. Prepared for final submission by reviewing the Makefile and cleaning up unnecessary files.   
+
+DISCUSSION
+
+The most challenging part of this assignment was ensuring that all edge cases were properly handled, especially when dealing with boundary conditions for the heatmap grid. The half-open interval logic and handling of longitude wrapping required extra attention to match the expected output. Debugging small discrepancies in heatmap output was time-consuming but ultimately rewarding.
+
+Despite these challenges, the walkthrough and spec provided useful guidance, and running incremental tests helped in refining the implementation. Using Valgrind to check for memory leaks was essential in ensuring the program was memory-safe. Overall, this assignment helped strengthen my understanding of abstract data types, dynamic memory allocation, and boundary condition handling.
